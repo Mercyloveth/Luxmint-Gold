@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+
+  --color-lux-base: #0a0a0a;
+  --color-lux-gold: #C9A84C;
+  --color-lux-champagne: #E8D48B;
+  --color-lux-offwhite: #F5F0E8;
+}
+
+body {
+  background-color: var(--color-lux-base);
+  color: var(--color-lux-offwhite);
+}
+
+::selection {
+  background-color: var(--color-lux-gold);
+  color: var(--color-lux-base);
+}
